@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhinandan.ms.Multi"
+    android:background="@drawable/gameplay"
+    android:screenOrientation="portrait"
+    >
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="000"
+        android:id="@+id/m_timer"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <TableLayout
+        android:layout_below="@id/m_timer"
+        android:id="@+id/m_Minefield"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginLeft="25dp">
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Connecting...."
+        android:id="@+id/connecting"
+        android:layout_below="@id/m_Minefield"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/md"
+        android:src="@drawable/md"
+        android:layout_above="@+id/m_Minefield"
+        android:layout_toRightOf="@+id/m_Minefield"
+        android:layout_toEndOf="@+id/m_Minefield" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/bl"
+        android:src="@drawable/black_out"
+        android:layout_alignTop="@+id/md"
+        android:layout_toLeftOf="@+id/connecting"
+        android:layout_toStartOf="@+id/connecting" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/powerused_tv"
+        android:text=""
+        android:layout_above="@+id/bl"
+        android:layout_toRightOf="@id/connecting"
+        android:layout_toEndOf="@id/connecting" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Blacked \n    Out !"
+        android:id="@+id/black_tv"
+        android:layout_alignBottom="@+id/connecting"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffe7de42" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/black_c_tv"
+        android:layout_alignTop="@+id/bl"
+        android:layout_toLeftOf="@+id/black_tv"
+        android:layout_toStartOf="@+id/black_tv"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/md_c_tv"
+        android:layout_below="@+id/powerused_tv"
+        android:layout_toRightOf="@id/md"
+        android:layout_toEndOf="@id/md"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/shield"
+        android:src="@drawable/vc"
+
+        android:layout_alignTop="@+id/bl"
+        android:layout_alignLeft="@+id/bl"
+        android:layout_alignStart="@+id/bl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/shield_c"
+        android:layout_below="@+id/powerused_tv"
+        android:layout_toRightOf="@+id/black_tv"
+        android:layout_toEndOf="@+id/black_tv"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/defuse"
+        android:src="@drawable/vaccum"
+        android:layout_alignTop="@+id/bl"
+        android:layout_alignLeft="@+id/bl"
+        android:layout_alignStart="@+id/bl" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/black"
+        android:alpha=".5"
+        android:scaleType="fitXY"/>
+
+
+</RelativeLayout>

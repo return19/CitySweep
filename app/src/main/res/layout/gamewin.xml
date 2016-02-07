@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/dia"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clean Sweep..!! :)"
+        android:id="@+id/textView5"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        style="@android:style/Animation.Dialog"
+        android:alpha=".5" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:id="@+id/button3"
+        android:background="#ff997047"
+        android:backgroundTint="#ff997047"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/button4"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/button4"
+
+
+        android:backgroundTint="#ff997047"
+        android:textColor="#FFFFFF"
+        android:background="#ff997047"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView7"
+        />
+
+</RelativeLayout>

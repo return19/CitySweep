@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:clickable="true"
+    android:screenOrientation="portrait"
+    android:background="@drawable/dia"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="Sweep Failed..!! :("
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Animation.Dialog"
+        android:textSize="30sp"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:layout_width="99dp"
+
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:id="@+id/play_again"
+        android:backgroundTint="#ff997047"
+        android:background="#ff997047"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toLeftOf="@+id/cancel"
+        android:layout_toStartOf="@+id/cancel" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:backgroundTint="#ff997047"
+        android:background="#ff997047"
+        android:textColor="#ffffffff"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignTop="@+id/play_again"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/play_again"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="46dp" />
+
+</RelativeLayout>

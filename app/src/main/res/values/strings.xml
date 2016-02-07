@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CitySweep</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_player">SinglePlayer</string>
+    <string name="title_activity_multi">Multi</string>
+    <string name="title_activity_host__bt">host_BT</string>
+    <string name="title_activity_start_screen">startScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_device_list">DeviceListActivity</string>
+
+
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="details">\ \ \ \ \ \ \ \ \ \ \     Cleanliness is next to Godliness. Its our duty to make our city clean and beautiful and that is the objective of this game.
+its a game of your memory and reasoning.\n
+\n
+GOAL: Find the empty square,avoid the garbage and keep the city clean. The faster you clean the city the better you score.
+\n\n
+HOW TO PLAY:
+\n\n
+Rules are simple-
+\n
+Single player:\n
+->Uncover the garbage ,the game ends.\n\n
+->Uncover an empty square, and you keep cleaning(playing).\n\n
+->Uncover a number, and it tells you how much garbage lay hidden in the eight surrounding squares—information you use to
+ deduce which nearby squares are safe to click.\n\n
+\n
+Multiplayer:\n\n
+Whosoever will complete the cleaning first will be the winner.\n
+
+Sounds easy, Right?\n
+Lets make it easier,\n
+
+To make your cleaning faster and easier you will be provided with 4 lifelines which are hidden inside the squares.
+You can use these lifelines whenever you want to. these are:\n\n
+1.  Insta Clean: This lifeline will save you from losing if there is garbage hidden inside the square you have clicked
+               just after activating this lifeline. basically it will clean that garbage.\n
+2.  Down the Drain: Through this lifeline you can make your opponent fall into the sewage hole and he/she will remain there
+               for 8 sec i.e., he/she cannot click on any of the squares in these 8 seconds.\n
+3.  Armor: This lifeline will be activated for 15 seconds.In these 15 sec if your opponent uses \'down the drain\' lifeline
+           then armor will protect you.\n
+4.  Garbage Displacement: the most interesting one. you can displace the garbage of your opponent to ny place you want. just
+             you have to think before you take the action.\n
+\n
+Hints and tips:\n\n
+
+>Mark the garbage : If you suspect a square conceals a garbage, right-click it. This puts a broom on the square.\n
+\n
+>Study the patterns. If three squares in a row display 2-3-2, then you know three garbage are probably lined up
+                    beside that row.If a square says 8, every surrounding square has a garbage beside it.\n
+\n
+Explore the unexplored. Not sure where to click next? Try clearing some unexplored territory. You\'re better off
+                     clicking in the middle of unmarked squares than in an area you suspect contains garbage.\n
+\n
+ALL THE BEST! :D\n</string>
+
+
+</resources>
